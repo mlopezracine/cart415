@@ -15,6 +15,13 @@ _potential(ly bad) ideas_ <br>
 4. shoot paint to see? (see The Unfinished Swan) 
 5. snow environment, difficulty to see ahead.
 6. Real time lighting system (see https://answers.unity.com/questions/201499/how-to-get-the-system-time.html) <br>
-> No fight during [period] day and/or time
+> No fight during [period] day and/or time - no fight during even number (example) 
+> Seasons? - no fight during [season] (example)
 7. pay 1 life to have light around you/ to see something.
+
+_6_ <br>
+>Check system time
+Create lights according to time. Add snow = winter, leaves = automn.. <br>
+En ajoutant des contraintes et des éléments supplémentaires au jeu, il serait possible de créer une variété d'environnement/ de conditions, affectant directement le gameplay (ex. aucune possibilité de combat entre xtemps et ytemps, et/ ou durant une saison en particulier). Ça créerait des situations "anti-jeu", ou le jeu est simplement restraint par ces conditions.
+
 
