@@ -16,4 +16,5 @@ _potential(ly bad) ideas_ <br>
 5. snow environment, difficulty to see ahead.
 6. Real time lighting system (see https://answers.unity.com/questions/201499/how-to-get-the-system-time.html) <br>
 > No fight during [period] day and/or time
+7. pay 1 life to have light around you/ to see something.
 
