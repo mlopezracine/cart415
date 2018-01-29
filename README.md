@@ -46,6 +46,8 @@ Conclusion: Bien que les ombres me plaisent, rien n'est parfait. Il va falloir a
 # 29/01/2018
 ## I should find a proper title for this update entry
 
+[Ta-da!](https://drive.google.com/open?id=17SdsCtKwYJZ1pNKco0ZoTniCRo22sdrJ)
+
 J'ai changé les matériaux pour l'ensemble des éléments qui se retrouvent dans la scène originale. Ceux-ci ont le shader (de la dernière update) qui permet de projeter des ombres complètement noires. Il est plus facile de cacher les spawn points des ennemis + les ennemis semblent faire partis davantage du décor. De plus, j'ai ajouté une séquence d'images qui va permettre d'ajouter une animation pour la main. 
 
 _ce qui reste à faire:_
