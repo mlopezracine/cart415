@@ -49,9 +49,11 @@ Conclusion: Bien que les ombres me plaisent, rien n'est parfait. Il va falloir a
 J'ai changé les matériaux pour l'ensemble des éléments qui se retrouvent dans la scène originale. Ceux-ci ont le shader (de la dernière update) qui permet de projeter des ombres complètement noires. Il est plus facile de cacher les spawn points des ennemis + les ennemis semblent faire partis davantage du décor. De plus, j'ai ajouté une séquence d'images qui va permettre d'ajouter une animation pour la main. 
 
 _ce qui reste à faire:_
-1. Régler les intensités des lumières (tank) > il est difficile de savoir le niveau de vie de chaque tank.
+1. Régler les intensités des lumières (tank) 
+> il est difficile de savoir le niveau de vie de chaque tank.
 2. _fun bug_ Si un tank tire une balle sur un objet directement à côté de lui, celui-ci reprend également de la vie. À régler?
-3. Ajouter des waves d'ennemis + changer l'écran de victoire/ défaite > Idéalement, il faudrait que l'écran de défaite apparaît uniquement lorsque le dernier joueur en vie meurt (explose).
+3. Ajouter des waves d'ennemis + changer l'écran de victoire/ défaite 
+> Idéalement, il faudrait que l'écran de défaite apparaît uniquement lorsque le dernier joueur en vie meurt (explose).
 4. Ajouter système de particules lorsqu'un ennemi meurt 
 5. Ajouter système de particules lorsqu'un ennemi réussit à voler une partie de lumière/ vie d'un joueur.
 
