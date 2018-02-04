@@ -26,6 +26,10 @@ Need to change the UI > replace it with HEART. HEART float above the player's ta
 Create lights according to time. Add snow = winter, leaves = automn.. <br>
 En ajoutant des contraintes et des éléments supplémentaires au jeu, il serait possible de créer une variété d'environnement/ de conditions, affectant directement le gameplay (ex. aucune possibilité de combat entre xtemps et ytemps, et/ ou durant une saison en particulier). Ça créerait des situations "anti-jeu", ou le jeu est simplement restraint par ces conditions.
 
+# 20/01/2018
+## I found my concept/ idea
+
+Blabla bla
 
 # 24/01/2018 
 ## Update 1 : unrealated note
@@ -61,3 +65,7 @@ _ce qui reste à faire:_
 
 Dans un monde idéal, j'aimerai aussi modifier la caméra; Il serait intéressant de conserver le script initial de caméra et d'ajouter une modification. = champ de vision reste au plus grand écart de distance des joueurs / ne fait que s'aggrandir.
 
+#02/04/2018
+## Drop interval at random spawn point!
+
+Bla blabla
