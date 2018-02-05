@@ -76,8 +76,8 @@ J'ai laissé le _fun bug_ (Si un tank tire une balle sur un objet directement à
 
 J'ai modifié l'écran de "défaite". En analysant le code, je me suis rendue compte que l'ensemble du gameloop reposait sur le principe qu'il y aurait forcement un vainqueur. Au lieu de me "battre" contre le code, j'ai simplment modifié des textes sur le canvas;
 
-private IEnumerator RoundStarting()
-    {
+private IEnumerator RoundStarting() {
+    
     	ResetAllTanks ();
     	DisableTankControl ();
 
@@ -87,5 +87,5 @@ private IEnumerator RoundStarting()
     	m_MessageText.text = "SURVIVE TOGETHER";
 
         yield return m_StartWait;
-    }
+}
 
