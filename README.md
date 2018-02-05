@@ -73,7 +73,7 @@ _ce qui reste à faire:_
 
 Dans un monde idéal, j'aimerai aussi modifier la caméra; Il serait intéressant de conserver le script initial de caméra et d'ajouter une modification. = champ de vision reste au plus grand écart de distance des joueurs / ne fait que s'aggrandir.
 
-# 02/04/2018
+# 04/02/2018
 ## Drop interval at random spawn point!
 
 J'ai trouvé une partie de code en ligne permettant d'augmenter le nombre d'ennemis selon le temps. Par conséquent, plus le temps de jeu est important, plus il y aura des ennemis. De plus, pour couvrir une plus grande surface de la map, j'ai augmenté le nombre de spawn point à 5. Ainsi, l'apparition des ennemis est moins prédictible. 
@@ -100,3 +100,8 @@ private IEnumerator RoundStarting() {
 Le jeu accuse automatique le joueur "vainqueur" (m_GameWinner) d'avoir trahi son allié en le laissant s'éteindre. Il me semblait plus juste de référer la lumière comme étant la cause directe de la mort d'un des joueurs.
 
 Finalement, j'ai abandonné l'idée d'ajouter des particules et/ou des sons lorsqu'un ennemi meurt. J'ai obtenu des bugs particuliers, par exemple les tanks devenaient invinsibles si les ennemis avaient des sons d'attaque. L'ajout des sons empêchait complètement l'exécution du jeu, j'ai donc décidé de les retirer pour éviter davantage de problème. Même histoire pour les particules; L'effort d'implimentation de des systèmes de particules était plus grand que la récompense du résultat (en résumé, ça ne valait pas la peine de se battre pour un petit effet).
+
+# 05/02/2018
+## Afterthought
+
+urai pu ajouter des animations de mort et d'attaque pour les ennemis.
