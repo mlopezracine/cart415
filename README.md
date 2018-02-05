@@ -29,7 +29,15 @@ En ajoutant des contraintes et des éléments supplémentaires au jeu, il serait
 # 20/01/2018
 ## I found my concept/ idea
 
-Blabla bla
+I _really_ liked my first mode idea, much more than the one with the light being affected by the system time. 
+
+Par conséquent, j'ai complétement changer mon concept, en réflechissant à un moyen de complétement affecter le gameplay de base avec les lumières. Idéalement, ce changement devrait drastiquement changer la manière dont les joueurs jouent à Tanks!, tout en conservant la base du tutoriel (et en partie le concept de la première idée).
+
+> Shadow-hand enemis who trie to steal your light
+
+Plutôt que de perdre/ échanger des points de vie, j'ai déterminer qu'un jeu coopératif où les joueurs peuvent se redonner des points de vie permetterait de complétement changer la stratégie du jeu Tank! De plus, j'ai remplacé l'élément visuel (dans ce cas le UI) par un autre élément visuel: la lumière + blur. Dans ce concept, il est essentiel d'avoir un ennemi qui viendrait voler la lumières des joueurs; je me suis inspirée des ennemis qui se retrouvent dans le jeu [_Don't Starve_}](https://vignette.wikia.nocookie.net/dont-starve-game/images/9/9a/Night_Hand.png/revision/latest?cb=20150309025228). Ceux-ci sont des mains composées d'ombre (?) qui, à la tombée de la nuit, tentent d'éteindre le feu du joueur. 
+
+Je crois qu'il y a un bon potentiel d'exploration de concept relié à l'utilisation de mains (surtout des mains d'ombre) comme ennemis dans un jeu vidéo. 
 
 # 24/01/2018 
 ## Update 1 : unrealated note
@@ -82,10 +90,13 @@ private IEnumerator RoundStarting() {
     	DisableTankControl ();
     	m_CameraControl.SetStartPositionAndSize ();
     	m_RoundNumber++;
-    	m_MessageText.text = "_SURVIVE TOGETHER_";
+    	m_MessageText.text = "SURVIVE TOGETHER";
         yield return m_StartWait;
 }
 
         if (m_GameWinner != null)
             message = m_GameWinner.m_ColoredPlayerText + " YOU LET YOUR FRIEND'S LIGHT BE EXTINGUISHED";
 
+Le jeu accuse automatique le joueur "vainqueur" (m_GameWinner) d'avoir trahi son allié en le laissant s'éteindre. Il me semblait plus juste de référer la lumière comme étant la cause directe de la mort d'un des joueurs.
+
+Finalement, j'ai abandonné l'idée d'ajouter des particules et/ou des sons lorsqu'un ennemi meurt. J'ai obtenu des bugs particuliers, par exemple les tanks devenaient invinsibles si les ennemis avaient des sons d'attaque. L'ajout des sons empêchait complètement l'exécution du jeu, j'ai donc décidé de les retirer pour éviter davantage de problème. Même histoire pour les particules; L'effort d'implimentation de des systèmes de particules était plus grand que la récompense du résultat (en résumé, ça ne valait pas la peine de se battre pour un petit effet).
