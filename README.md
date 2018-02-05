@@ -52,7 +52,7 @@ Conclusion: Bien que les ombres me plaisent, rien n'est parfait. Il va falloir a
 
 [Ta-da!](https://drive.google.com/open?id=17SdsCtKwYJZ1pNKco0ZoTniCRo22sdrJ)
 
-J'ai changé les matériaux pour l'ensemble des éléments qui se retrouvent dans la scène originale. Ceux-ci ont le shader (de la dernière update) qui permet de projeter des ombres complètement noires. Il est plus facile de cacher les spawn points des ennemis + les ennemis semblent faire partis davantage du décor. De plus, j'ai ajouté une séquence d'images qui va permettre d'ajouter une animation pour la main. 
+J'ai changé les matériaux pour l'ensemble des éléments qui se retrouvent dans la scène originale. Ceux-ci ont le shader (de la dernière update) qui permet de projeter des ombres complètement noires. Il est plus facile de cacher les spawn points des ennemis + les ennemis semblent faire partis davantage du décor. De plus, j'ai ajouté une séquence d'images qui va permettre d'ajouter une animation pour la main (ce qui a comme résultat de rendre l'ennemi un peu plus terrifiant!). 
 
 _ce qui reste à faire:_
 1. Régler les intensités des lumières (tank) 
@@ -68,4 +68,23 @@ Dans un monde idéal, j'aimerai aussi modifier la caméra; Il serait intéressan
 #02/04/2018
 ## Drop interval at random spawn point!
 
-Bla blabla
+J'ai trouvé une partie de code en ligne permettant d'augmenter le nombre d'ennemis selon le temps. Par conséquent, plus le temps de jeu est important, plus il y aura des ennemis. De plus, pour couvrir une plus grande surface de la map, j'ai augmenté le nombre de spawn point à 5. Ainsi, l'apparition des ennemis est moins prédictible. 
+
+L'intensité des lumières est réglé et maintenant directement linké à la vie du tank. La balance des vies est un peu maladroite, cepandant il est plus facile de déterminer le nombre de vie restante pour chaque joueur/ tank.
+
+J'ai laissé le _fun bug_ (Si un tank tire une balle sur un objet directement à côté de lui, celui-ci reprend également de la vie.). En playtestant le prototype, je me suis rendue compte que le nouveau drop rate/ interval rendait la tâche (celle de sauver son allié) plus ardu. Le joueur est rapidement confronté au choix d'aider son allié ou de continuer à tirer sur les ennemis. Si un joueur décide d'aider son allié, il court le risque de se faire attaquer à son tour; le choix d'aider son allié vient donc au détriment de sa propre vie.
+
+J'ai modifié l'écran de "défaite". En analysant le code, je me suis rendue compte que l'ensemble du gameloop reposait sur le principe qu'il y aurait forcement un vainqueur. Au lieu de me "battre" contre le code, j'ai simplment modifié des textes sur le canvas;
+>private IEnumerator RoundStarting()
+    {
+    	ResetAllTanks ();
+    	DisableTankControl ();
+
+    	m_CameraControl.SetStartPositionAndSize ();
+
+    	m_RoundNumber++;
+    	m_MessageText.text = "SURVIVE TOGETHER";
+
+        yield return m_StartWait;
+    }
+
