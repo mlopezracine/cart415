@@ -35,7 +35,7 @@ Par conséquent, j'ai complétement changer mon concept, en réflechissant à un
 
 > Shadow-hand enemis who trie to steal your light
 
-Plutôt que de perdre/ échanger des points de vie, j'ai déterminer qu'un jeu coopératif où les joueurs peuvent se redonner des points de vie permetterait de complétement changer la stratégie du jeu Tank! De plus, j'ai remplacé l'élément visuel (dans ce cas le UI) par un autre élément visuel: la lumière + blur. Dans ce concept, il est essentiel d'avoir un ennemi qui viendrait voler la lumières des joueurs; je me suis inspirée des ennemis qui se retrouvent dans le jeu [_Don't Starve_}](https://vignette.wikia.nocookie.net/dont-starve-game/images/9/9a/Night_Hand.png/revision/latest?cb=20150309025228). Ceux-ci sont des mains composées d'ombre (?) qui, à la tombée de la nuit, tentent d'éteindre le feu du joueur. 
+Plutôt que de perdre/ échanger des points de vie, j'ai déterminer qu'un jeu coopératif où les joueurs peuvent se redonner des points de vie permetterait de complétement changer la stratégie du jeu Tank! De plus, j'ai remplacé l'élément visuel (dans ce cas le UI) par un autre élément visuel: la lumière + blur. Dans ce concept, il est essentiel d'avoir un ennemi qui viendrait voler la lumières des joueurs; je me suis inspirée des ennemis qui se retrouvent dans le jeu [_Don't Starve_](https://vignette.wikia.nocookie.net/dont-starve-game/images/9/9a/Night_Hand.png/revision/latest?cb=20150309025228). Ceux-ci sont des mains composées d'ombre (?) qui, à la tombée de la nuit, tentent d'éteindre le feu du joueur. 
 
 Je crois qu'il y a un bon potentiel d'exploration de concept relié à l'utilisation de mains (surtout des mains d'ombre) comme ennemis dans un jeu vidéo. 
 
