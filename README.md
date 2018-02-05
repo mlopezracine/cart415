@@ -102,6 +102,12 @@ Le jeu accuse automatique le joueur "vainqueur" (m_GameWinner) d'avoir trahi son
 Finalement, j'ai abandonné l'idée d'ajouter des particules et/ou des sons lorsqu'un ennemi meurt. J'ai obtenu des bugs particuliers, par exemple les tanks devenaient invinsibles si les ennemis avaient des sons d'attaque. L'ajout des sons empêchait complètement l'exécution du jeu, j'ai donc décidé de les retirer pour éviter davantage de problème. Même histoire pour les particules; L'effort d'implimentation de des systèmes de particules était plus grand que la récompense du résultat (en résumé, ça ne valait pas la peine de se battre pour un petit effet).
 
 # 05/02/2018
-## Afterthought
+## Update 1: Afterthought
 
-urai pu ajouter des animations de mort et d'attaque pour les ennemis.
+Regret: I could have added attack and death animations for the enemis. 
+
+## Update 2: Ideas for sound?
+
+Tanks that scream want you touch them.
+
+Tanks that bleed want you hit them.
