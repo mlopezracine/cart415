@@ -111,3 +111,12 @@ Regret: I could have added attack and death animations for the enemis.
 Tanks that scream want you touch them.
 
 Tanks that bleed want you hit them.
+
+# 08/02/2018
+## Let's remove *all* sounds
+
+Idée/ concept; retirer (soudainement) le son pour en réaliser son importance.
+
+_Story time_ / Years ago, I was playing The Sims 1, and I kinda f#ck up my game. Most of my characters burnt to death (well, the game *did* allow the player to place fireworks inside the house) and the last playable character was sent to the Army. The game didn't stop as I was left watching the house for who knows how much time (I lasted 15 minutes, and quited). I certaintly did not expect that outcome. What made it even more inconfortable was the sudden disappearence of the (annoying) background music. No music, no sounds. It was such a strange experience, to contemple the remains of what was, a few moments ago, a normal game of The Sims. I really liked this outcome, it made me realize how much I valued the background music and the various sound effects. They made the whole experience much more immersive, and without them it was not the same. It was inconfortable. 
+
+I want to explore this experience, and include that in my prototype. I was thinking about creating a city full of noises and people, in which the player (the tank) may moves around. If the player shoot/ press a key, everything explode. Then, the play may continue to move around, but this time, without the noises and people.
