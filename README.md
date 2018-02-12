@@ -122,7 +122,6 @@ _Story time_ / Years ago, I was playing The Sims 1, and I kinda f#ck up my game.
 I want to explore this experience, and include that in my prototype. I was thinking about creating a city full of noises and people, in which the player (the tank) may moves around. If the player shoot/ press a key, everything explode. Then, the play may continue to move around, but this time, without the noises and people.
 
 # 11/02/2018
-
 ## NEED TO UPDATE THIS UPDATE/ NOTE
 
 [Akira - Opening](https://www.youtube.com/watch?v=05i9YMvn46M)
@@ -138,3 +137,12 @@ Somehow, I ended up making two prototypes.
 
 The other is the reverse: There is no sound, only ambiant. The player need to touch the tank to hear the sounds = break the silence.
 Struggle: I spend too much time trying to link my two scripts. Solution : function onMouseDown (yes, stupid problem, easy solution).
+
+# 12/02/2018
+## Update 1: Before Evaluation
+
+Proto 2: I'm trying to add an array of sounds, so I may have a random sound each time *user* clic on a tank + Would it be nice to have some sort of blood coming out of the tanks whenever *user* clic on them? I *think* it might add more to the creepy vibe I'm trying to create in this prototype.
+
+Proto 1: I need to add more polish sound effects. Nice ones. Also, I need to polish the visual as they are too underwhelming at the moment. I was also thinking about removing the tank in the second scene, which would reflect more the impacts of the bomb/ decision the player made.
+
+I'm unsure which one I should polish/ pursuit. I like both ideas; they both have a completely different feels and ways of introducting sounds. However, Proto 1 have the avantage of referencing a pop culture element (proto 2 is basically my respond to proto 1).
