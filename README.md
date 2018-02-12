@@ -122,6 +122,19 @@ _Story time_ / Years ago, I was playing The Sims 1, and I kinda f#ck up my game.
 I want to explore this experience, and include that in my prototype. I was thinking about creating a city full of noises and people, in which the player (the tank) may moves around. If the player shoot/ press a key, everything explode. Then, the play may continue to move around, but this time, without the noises and people.
 
 # 11/02/2018
-## References
+
+## NEED TO UPDATE THIS UPDATE/ NOTE
 
 [Akira - Opening](https://www.youtube.com/watch?v=05i9YMvn46M)
+
+Ce que j'apprécie particulièrement avec cette référence/ vidéo d'introduction est la quiètude menaçante avant l'explosion (ou pré-explosion?) puis cette lourdeure suivant post explosion.
+> tension, peu de sons/ musique ambiante, pré et post explosion
+
+Jeu ou le joueur est libre de visiter l'environnement, d'entendre l'ensemble des sons. Au moment o;u celui-ci appuie sur _spacebar_ = release a bomb + cancel all sounds = destroy the ambiant, destroy the environment
+
+Struggle: I worked too much on making the shader _-Emission_ blow as you throw the bomb = unsucessful, need to play with GI
+
+Somehow, I ended up making two prototypes.
+
+The other is the reverse: There is no sound, only ambiant. The player need to touch the tank to hear the sounds = break the silence.
+Struggle: I spend too much time trying to link my two scripts. Solution : function onMouseDown (yes, stupid problem, easy solution).
