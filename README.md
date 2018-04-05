@@ -1,9 +1,6 @@
 # cart415
 
-
-
 # LIGHT & CAMERA PROTOTYPE
-
 
 # 08/01/2018
 ## mod idea
@@ -111,10 +108,7 @@ Finalement, j'ai abandonné l'idée d'ajouter des particules et/ou des sons lors
 
 Regret: I could have added attack and death animations for the enemis. 
 
-
-
 # SOUND PROTOTYPE
-
 
 ## Update 2: Ideas for sound?
 
@@ -178,9 +172,7 @@ J'ai récupéré le modèle de busted_tank.
 ## Visitors Feedbacks: Sound Full Prototype
 
 
-
-# 3D PROTOTYPE
-
+### 3D PROTOTYPE
 
 # 05/03/2018
 ## Rough 3D Prototype
