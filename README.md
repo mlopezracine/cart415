@@ -1,16 +1,16 @@
-# cart415
+### cart415
 
 # LIGHT & CAMERA PROTOTYPE
 
-# 08/01/2018
-## mod idea
+## 08/01/2018
+### mod idea
 > Rather than bullet, shoot life.
 
 Player shoot life, loose some of their. If the notBullet hit the target (other player), the target gains life. <br>
 Need to change the UI > replace it with HEART. HEART float above the player's tank. <br>
 
-# 15/01/2018 
-## potential(ly bad) ideas
+## 15/01/2018 
+### potential(ly bad) ideas
 
 1. players have to press [button] to keep (/feed) the light. Light progressively fade away. 
 2. when one player dies, the game don't stop = passage du jour et de la nuit. The game that keeps on forever. Leaving the winning player to contemplate the "corpse" of the other tank. 
@@ -22,14 +22,14 @@ Need to change the UI > replace it with HEART. HEART float above the player's ta
 > Seasons? - no fight during [season] (example)
 7. pay 1 life to have light around you/ to see something.
 
-## 6
+### 6
 
 >Check system time
 Create lights according to time. Add snow = winter, leaves = automn.. <br>
 En ajoutant des contraintes et des éléments supplémentaires au jeu, il serait possible de créer une variété d'environnement/ de conditions, affectant directement le gameplay (ex. aucune possibilité de combat entre xtemps et ytemps, et/ ou durant une saison en particulier). Ça créerait des situations "anti-jeu", ou le jeu est simplement restraint par ces conditions.
 
-# 20/01/2018
-## I found my concept/ idea
+## 20/01/2018
+### I found my concept/ idea
 
 I _really_ liked my first mode idea, much more than the one with the light being affected by the system time. 
 
@@ -41,14 +41,14 @@ Plutôt que de perdre/ échanger des points de vie, j'ai déterminer qu'un jeu c
 
 Je crois qu'il y a un bon potentiel d'exploration de concept relié à l'utilisation de mains (surtout des mains d'ombre) comme ennemis dans un jeu vidéo. 
 
-# 24/01/2018 
-## Update 1 : unrealated note
+## 24/01/2018 
+### Update 1 : unrealated note
 
 As a silly joke (_easter egg?_), I named the enemy prefab (and anything related to them) "handDarkness", as a reference to Ursula K. Le Guin's novel "The Left Hand of Darkness". Even the cutout image is left-handed. Nothing in the game ever refer to the novel at all; This was mostly for my own personal enjoyment.
 
 Ce lundi, cette grande dame s'est éteinte, laissant un immense vide dans l'univers de la littérature de science-fiction. Cette nouvelle ébranle mon petit coeur de libraire. Maintenant, j'espère cette infime référence rend, d'une certaine manière, hommage à cette  extraordinaire autrice. _And, if you haven't yet, please go read one of her novels._
 
-## Update 2 : Fun with shaders
+### Update 2 : Fun with shaders
 
 
 [test](https://drive.google.com/file/d/1U8DjN6lR8xJF2VaVax89ZHLZEAcSXfQu/view?usp=sharing)
@@ -57,8 +57,8 @@ J'ai tenté de modifier les lumières/ ombres du jeu de base en changeant le sha
 
 Conclusion: Bien que les ombres me plaisent, rien n'est parfait. Il va falloir ajuster certains paramètres. Je crois que pour cette expérimentation, je vais conserver ce shader.
 
-# 29/01/2018
-## I should find a proper title for this update entry
+## 29/01/2018
+### I should find a proper title for this update entry
 
 [Ta-da!](https://drive.google.com/open?id=17SdsCtKwYJZ1pNKco0ZoTniCRo22sdrJ)
 
@@ -75,8 +75,8 @@ _ce qui reste à faire:_
 
 Dans un monde idéal, j'aimerai aussi modifier la caméra; Il serait intéressant de conserver le script initial de caméra et d'ajouter une modification. = champ de vision reste au plus grand écart de distance des joueurs / ne fait que s'aggrandir.
 
-# 04/02/2018
-## Drop interval at random spawn point!
+## 04/02/2018
+### Drop interval at random spawn point!
 
 J'ai trouvé une partie de code en ligne permettant d'augmenter le nombre d'ennemis selon le temps. Par conséquent, plus le temps de jeu est important, plus il y aura des ennemis. De plus, pour couvrir une plus grande surface de la map, j'ai augmenté le nombre de spawn point à 5. Ainsi, l'apparition des ennemis est moins prédictible. 
 
@@ -103,21 +103,21 @@ Le jeu accuse automatique le joueur "vainqueur" (m_GameWinner) d'avoir trahi son
 
 Finalement, j'ai abandonné l'idée d'ajouter des particules et/ou des sons lorsqu'un ennemi meurt. J'ai obtenu des bugs particuliers, par exemple les tanks devenaient invinsibles si les ennemis avaient des sons d'attaque. L'ajout des sons empêchait complètement l'exécution du jeu, j'ai donc décidé de les retirer pour éviter davantage de problème. Même histoire pour les particules; L'effort d'implimentation de des systèmes de particules était plus grand que la récompense du résultat (en résumé, ça ne valait pas la peine de se battre pour un petit effet).
 
-# 05/02/2018
-## Update 1: Afterthought
+## 05/02/2018
+### Update 1: Afterthought
 
 Regret: I could have added attack and death animations for the enemis. 
 
 # SOUND PROTOTYPE
 
-## Update 2: Ideas for sound?
+### Update 2: Ideas for sound?
 
 Tanks that scream want you touch them.
 
 Tanks that bleed want you hit them.
 
-# 08/02/2018
-## Let's remove *all* sounds
+## 08/02/2018
+### Let's remove *all* sounds
 
 Idée/ concept; retirer (soudainement) le son pour en réaliser son importance.
 
@@ -125,8 +125,8 @@ _Story time_ / Years ago, I was playing The Sims 1, and I kinda f#ck up my game.
 
 I want to explore this experience, and include that in my prototype. I was thinking about creating a city full of noises and people, in which the player (the tank) may moves around. If the player shoot/ press a key, everything explode. Then, the play may continue to move around, but this time, without the noises and people.
 
-# 11/02/2018
-## References
+## 11/02/2018
+### References
 
 [Akira - Opening](https://www.youtube.com/watch?v=05i9YMvn46M)
 
@@ -142,8 +142,8 @@ Somehow, I ended up making two prototypes.
 The other is the reverse: There is no sound, only ambiant. The player need to touch the tank to hear the sounds = break the silence.
 Struggle: I spend too much time trying to link my two scripts. Solution : function onMouseDown (yes, stupid problem, easy solution).
 
-# 12/02/2018
-## Update 1: Before Evaluation
+## 12/02/2018
+### Update 1: Before Evaluation
 
 Proto 2: I'm trying to add an array of sounds, so I may have a random sound each time *user* clic on a tank + Would it be nice to have some sort of blood coming out of the tanks whenever *user* clic on them? I *think* it might add more to the creepy vibe I'm trying to create in this prototype.
 
@@ -151,29 +151,29 @@ Proto 1: I need to add more polish sound effects. Nice ones. Also, I need to pol
 
 I'm unsure which one I should polish/ pursuit. I like both ideas; they both have a completely different feels and ways of introducting sounds. However, Proto 1 have the avantage of referencing a pop culture element (proto 2 is basically my respond to proto 1).
 
-## Update 2: After Evaluation
+### Update 2: After Evaluation
 
 I think I'll go with the proto 2. Since it's more abstract, it allows more freedom of execution. And, let's be honest, this one got better feedbacks.
 
 The only thing I'm worrying about is the lack of references. Prototype 2 (Screaming Tanks) was (somehow) a response to my other prototype (Nuclear Tank). Whereas proto 1 starts with sounds and, if the player interacts, ends with silence, proto 2 has, more or less, the reverse order since the player needs to interact to hear the sound (screaming). I'm not sure where to start nor what kind of visuals to do.
 
-# 16/02/2018 
-## Feedbacks: Sound Rough Prototype (What should I do?)
+## 16/02/2018 
+### Feedbacks: Sound Rough Prototype (What should I do?)
 
 Bien que mon choix s'est arrêté sur le rough prototype 2 (Screaming Tanks), j'éprouve de la difficulté à concevoir un prototype engageant et bien refléchi. Comment modifier le jeu de base en utilisant les sons de manière à modifier l'expérience de jeu? La question du visuel me pose aussi problème. Le rough prototype n'a que quelques tanks flottants dans l'espace. Alors vient le problème de savoir comment créer un environnement/ contexte intéressant qui inciterait les joueurs à intéragir et qui permetterai une meilleure compréhension du concept.
 
-# 21/02/2018 (Mid-term break)
-## WIP
+## 21/02/2018 (Mid-term break)
+### WIP
 
 J'ai récupéré le modèle de busted_tank.
 
 
-# 26/02/2018
-## Visitors Feedbacks: Sound Full Prototype
+## 26/02/2018
+### Visitors Feedbacks: Sound Full Prototype
 
 
-### 3D PROTOTYPE
+# 3D PROTOTYPE
 
-# 05/03/2018
-## Rough 3D Prototype
+## 05/03/2018
+### Rough 3D Prototype
 
