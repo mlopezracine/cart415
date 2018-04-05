@@ -1,5 +1,10 @@
 # cart415
 
+
+
+# LIGHT & CAMERA PROTOTYPE
+
+
 # 08/01/2018
 ## mod idea
 > Rather than bullet, shoot life.
@@ -106,6 +111,11 @@ Finalement, j'ai abandonné l'idée d'ajouter des particules et/ou des sons lors
 
 Regret: I could have added attack and death animations for the enemis. 
 
+
+
+# SOUND PROTOTYPE
+
+
 ## Update 2: Ideas for sound?
 
 Tanks that scream want you touch them.
@@ -122,7 +132,7 @@ _Story time_ / Years ago, I was playing The Sims 1, and I kinda f#ck up my game.
 I want to explore this experience, and include that in my prototype. I was thinking about creating a city full of noises and people, in which the player (the tank) may moves around. If the player shoot/ press a key, everything explode. Then, the play may continue to move around, but this time, without the noises and people.
 
 # 11/02/2018
-## -
+## References
 
 [Akira - Opening](https://www.youtube.com/watch?v=05i9YMvn46M)
 
@@ -166,3 +176,12 @@ J'ai récupéré le modèle de busted_tank.
 
 # 26/02/2018
 ## Visitors Feedbacks: Sound Full Prototype
+
+
+
+# 3D PROTOTYPE
+
+
+# 05/03/2018
+## Rough 3D Prototype
+
