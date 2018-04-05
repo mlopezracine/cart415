@@ -169,29 +169,75 @@ Bien que mon choix s'est arrêté sur le rough prototype 2 (Screaming Tanks), j'
 
 Tel que noté lors de l'évaluation du rough prototype, il n'y a aucun feedback/ effet/ réaction/ (quelque chose) à l'écrasement du tank contre le sol. C'est décevant pour la personne qui interagit avec le prototype. Étant donné que le jeu de base possède un modèle de tank détruit (busted_tank), j'ai décidé de l'utiliser pour créer une animation de destruction. J'ai récupéré le modèle de busted_tank puis l'ai importé dans Maya. Unity ne possède pas de destructible mesh comme Unreal, par conséquent j'ai (dû) décidé de créer manuellement une animation pour l'écrasement du tank. Le modèle de busted_tank est composé de divers morçeaux, ceux-ci ont été déplacés pour recréer le modèle initial du tank. Avec l'animation, les morceaux "s'éparpillent" et reprennent la forme originelle de busted_tank. Ça donne l'illusion d'un crash... dans un seul angle préçis. Il y a quelques désavantages avec cette méthode, le plus important est que je n'ai pas de contrôle sur l'angle d'écrasement du modèle de base du tank. Dans certaines occasions, cela résulte en une transition un peu awkward. 
 
-I tried.
+I mean, _I tried_.
 
-### Update 2: I have no mouth but I must scream (Tanks Edition).
+### Update 2: I have no mouth and I must scream (Tanks Edition) - a.k.a Why are the tanks screaming???
 
-Why are the tanks screaming???
-
+À ce point, j'avais besoin d'une raison d'être, autre que "c'est amusant", "c'est étrange" ou même "j'aimais beaucoup les sons, alors j'ai trouvé une excuse pour les utiliser". La dernière raison est tout à fait légitime, mais n'aide pas à exprimer le concept à travers l'exécution. J'ai décidé de "résoudre" ce problème en créant une composition intéressante qui proposerait une partie de l'explication. Au départ, je voulais aligner les tanks en deux rangées, l'une en face de l'autre, pour créer une sorte de corridor. L'idée était de créer une ambiance angoissante en mélangeant l'ordre extrème des tanks et l'étrangeté de l'arrangement. Thématiquement, ça avait du sens (armée, tank, ordre), mais en pratique le résultat était moins concluant. J'ai essayé de briser l'ordre en plaçant les tanks aléatoirement (toujours en deux colonnes, face à face), sans davantage de succès. C'est en testant et en détruisant le semblant d'ordre de ma scène unity que j'ai obtenu une sorte de masse imparfaite composée de plusieurs tanks entassés l'un sur l'autre. À ce moment, je savais que je détenais quelque chose d'intéressant; combiner avec des sons d'oeuf en train de se faire casser, cela donne l'impression d'arracher le tank à la masse. Pire, combiné avec les hurlements, cela résulte en une scène incomfortable, comme si le tank était blessé par la rupture de la masse. C'est l'effet qui se retrouve sur mon prototype final.
 
 
 ## 25/02/2018 (Mid-term break)
-### Aliens?
+### Fun time: Flickering light effect and aliens.
 
+Avant de présenter le prototype à la classe, je me suis assurée > que la composition est intéressante (j'ai rajouté les tanks pré-éclatés sur le sol, pour avertir (?)/ pour guider le joueur à travers ses interactions... kinda like a foreshadowing), que les tanks qui peuvent être manipuler aillent une légère distinction de couleur, qu'il n'y ait plus de bugs.
+
+J'ai perdu __ÉNORMÉMENT DE TEMPS__ à essayer d'avoir des clignotements de lumière distincts pour chaque tank. J'ai "découvert" qu'il est impossible de changer le renderer(_Emmissive_) de chaque instance, puisque à la base, les instances partagent le même matériel.
+
+		Start()
+        { 
+        Mat = this.gameObject.GetComponent<Renderer>().materials[2]; 
+        }
+		Update()
+        { 
+        _rendTank.materials[2].SetFloat("_EmissiveMultiply", Mathf.Lerp(4, 0, t));
+        t += Time.deltaTime;
+        }
+* À noter qu'il y a d'autres lignes de code dans le script, je n'ai que transcrit un exemple de celles qui _auraient dû_ fonctionner ensemble.
+
+À ma connaissance, il aurait fallu dupliquer, pour chaque instance, le matériel et/ ou le script. Parce que même si j'avais une variable aléatoire dans le script, le matériel reste le même. Le renderer de chaque reste le même. Par conséquent, l'effet de flickering reste le même pour toutes les instances de tanks. I tried, I failed. J'ai décidé de ne pas poursuivre l'expérience et de simplement avoir le même clignotement pour tous les tanks.
+
+D'une autre part, j'ai rajouté des choses (aliens?) lorsque le tank s'écrase/ éclate sur le sol, pour juger/ observer/ être témoin des interactions du joueur. Je me suis dis que cela ajouterait un "feedback" suivant la destruction du tank. 
 
 
 ## 26/02/2018
 ### Visitors Feedbacks: Sound Full Prototype
 
+"You may (or not, your choice) click on the tanks, that seems to be interactable. You may stop whenever you want."
+"The player may interact (click and/ or drag) only with the tanks whose lights are on, by clicking the left mouse button. The player may also only listen to the initial ambient soundtrack. There are no bad interactions, only slightly different experiences."
+
+People who were hoping for a *real* video game were disappointed by my prototype. People who accepted the experimental nature of my prototype seem to have appreciated. I decided to approach this as an interactive piece, and gave vague instructions, as I thought the fun of it was to hear for the first time the horrific sound as you rip the tank from the mass. And it worked. People seemed to be surprised by it, and I even dare to say that they loved the effect. The problem was mainly with the _after_. Should the aliens exist in the first place? Should the tanks still be interactable after the crash? What can you do once all the crash are crashed?
+
+"If the player ever decided to interact, the Tanks will be rip of the mass, and scream. This prototype seeks to create a dissonance between the visual and the sounds, by pairing the (human) screams with the tanks. When a tank hits the ground, it abruptly breaks down. Then a manifestation of the vehicle is visible. It will laments and judges the player, since they are the cause of the destruction of the initial ecosystem. If all the tanks are destroyed, there is nothing left to do, but to contemplate the result of the player's actions."
+
+TL;DR > What can you do once all the crash are crashed? If all the tanks are destroyed, there is nothing left to do, but to contemplate the result of the player's actions.
+
+_
+
+Comments:
+1. Maybe more interaction?
+2. Aliens should blink
+3. There seems to be no goal?
+4. Interaction with aliens?
+5. Fix your shadows/ lack of shadow on the ground (the shader was at fault, I fixed it)
+
+Possible modifications:
+1. Aliens should bink, disappear, have different sounds
+2. Add instructions on screen "You may (or not) click on the tanks"
+3. Music, louder? Different?
+
+What I did:
+1. Aliens can now blink!
+2. The shadows are now ok (really, I didn't expect the shader to be the problem)
+3. Music is louder (people could hear the music very well).
+
 
 # 3D OBJECTS PROTOTYPE
 
-## 00/03/2018
-### Rough 3D Prototype
+## 28/02/2018
+### I need ideas for the rough 3D Prototype
 
-## 00/03/2018
+
+## 03/03/2018
 ### 3D Prototype
 
 ## 00/03/2018
@@ -212,6 +258,8 @@ Je ne sais pas comment réagir aux commentaires reçus pour ce prototype. Il sem
 
 ## 00/04/2018
 ### What I need to do
+
+Cry.
 
 ## 00/04/2018
 ### 
