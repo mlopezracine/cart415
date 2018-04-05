@@ -1,5 +1,6 @@
 ### cart415
 
+
 # LIGHT & CAMERA PROTOTYPE
 
 ## 08/01/2018
@@ -108,6 +109,7 @@ Finalement, j'ai abandonné l'idée d'ajouter des particules et/ou des sons lors
 
 Regret: I could have added attack and death animations for the enemis. 
 
+
 # SOUND PROTOTYPE
 
 ### Update 2: Ideas for sound?
@@ -165,15 +167,46 @@ Bien que mon choix s'est arrêté sur le rough prototype 2 (Screaming Tanks), j'
 ## 21/02/2018 (Mid-term break)
 ### WIP
 
-J'ai récupéré le modèle de busted_tank.
+J'ai récupéré le modèle de busted_tank puis je l'ai importé dans maya. J'ai 
 
 
 ## 26/02/2018
 ### Visitors Feedbacks: Sound Full Prototype
 
 
-# 3D PROTOTYPE
+# 3D OBJECTS PROTOTYPE
 
-## 05/03/2018
+## 00/03/2018
 ### Rough 3D Prototype
+
+## 00/03/2018
+### 3D Prototype
+
+## 00/03/2018
+### 3D Prototype
+
+## 00/03/2018
+### 3D Prototype
+
+## 00/03/2018
+### 3D Prototype
+
+## 00/03/2018
+### Feedbacks: 3D Full Prototype
+
+Je ne sais pas comment réagir aux commentaires reçus pour ce prototype. Il semble avoir du potentiel, cependant l'exécution du prototype semble être maladroite, voir incomplète. 
+
+# FINAL PROJECT RELEASE
+
+## 00/04/2018
+### What I need to do
+
+## 00/04/2018
+### 
+
+## 00/04/2018
+### 
+
+## 00/04/2018
+### 
 
