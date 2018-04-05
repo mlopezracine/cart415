@@ -165,9 +165,21 @@ The only thing I'm worrying about is the lack of references. Prototype 2 (Scream
 Bien que mon choix s'est arrêté sur le rough prototype 2 (Screaming Tanks), j'éprouve de la difficulté à concevoir un prototype engageant et bien refléchi. Comment modifier le jeu de base en utilisant les sons de manière à modifier l'expérience de jeu? La question du visuel me pose aussi problème. Le rough prototype n'a que quelques tanks flottants dans l'espace. Alors vient le problème de savoir comment créer un environnement/ contexte intéressant qui inciterait les joueurs à intéragir et qui permetterai une meilleure compréhension du concept.
 
 ## 21/02/2018 (Mid-term break)
-### WIP
+### Update 1: Oh well, Unity doesn't have automatic destructible mesh.
 
-J'ai récupéré le modèle de busted_tank puis je l'ai importé dans maya. J'ai 
+Tel que noté lors de l'évaluation du rough prototype, il n'y a aucun feedback/ effet/ réaction/ (quelque chose) à l'écrasement du tank contre le sol. C'est décevant pour la personne qui interagit avec le prototype. Étant donné que le jeu de base possède un modèle de tank détruit (busted_tank), j'ai décidé de l'utiliser pour créer une animation de destruction. J'ai récupéré le modèle de busted_tank puis l'ai importé dans Maya. Unity ne possède pas de destructible mesh comme Unreal, par conséquent j'ai (dû) décidé de créer manuellement une animation pour l'écrasement du tank. Le modèle de busted_tank est composé de divers morçeaux, ceux-ci ont été déplacés pour recréer le modèle initial du tank. Avec l'animation, les morceaux "s'éparpillent" et reprennent la forme originelle de busted_tank. Ça donne l'illusion d'un crash... dans un seul angle préçis. Il y a quelques désavantages avec cette méthode, le plus important est que je n'ai pas de contrôle sur l'angle d'écrasement du modèle de base du tank. Dans certaines occasions, cela résulte en une transition un peu awkward. 
+
+I tried.
+
+### Update 2: I have no mouth but I must scream (Tanks Edition).
+
+Why are the tanks screaming???
+
+
+
+## 25/02/2018 (Mid-term break)
+### Aliens?
+
 
 
 ## 26/02/2018
