@@ -259,10 +259,16 @@ Je ne sais pas comment réagir aux commentaires reçus pour ce prototype. Il sem
 ## 00/04/2018
 ### What I need to do
 
-Cry.
+Cry?
 
-## 00/04/2018
-### 
+## 13/04/2018
+### Screaming Tanks
+1. J'ai modifié la gravité, les tanks tombent plus rapidement. 
+2. Les petits aliens ont disparus, à la place il est maintenant possible de lancer les débris. Les débris ne hurlent pas.
+
+Suite à certains commentaires, j'ai décidé d'ajouter la possibilité de lancer les débris des tanks. En ce faisant, j'ai eu de la difficulté à justifier l'existence des petits aliens/ ombres/ personnagesm, puisque l'action de lancer les débris est satisfaisante en soi. Il y a quelque chose à faire après la "mort" de l'écosystème, mais il n'y a plus de cri (les tanks sont morts).
+
+3. Les débris émettent du sons lorsqu'ils fracassent le sol.
 
 ## 00/04/2018
 ### 
