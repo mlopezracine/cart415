@@ -252,14 +252,24 @@ What I did:
 ## 00/03/2018
 ### Feedbacks: 3D Full Prototype
 
-Je ne sais pas comment réagir aux commentaires reçus pour ce prototype. Il semble avoir du potentiel, cependant l'exécution du prototype semble être maladroite, voir incomplète. 
+Je ne sais pas comment réagir aux commentaires reçus pour ce prototype. Il semble avoir du potentiel, cependant je suis consciente que l'exécution du prototype semble être maladroite, voir incomplète. 
+
+### Update 2/ Feedbacks: 3D full Prototype
+
+Changements mineurs prévus: 
+1. Retirer l'interface <Do you want to go back?>
+2. Ajuster l'éclairage
+3. Remettre la musique d'ambiance originale du jeu Tanks!
+4. Intégrer la musique d'ambiance en haut de l'édifice
+5. Reposition la caméra lors de l'entrée dans la scène "limbo"
+6. Bloquer des mouvements, restreindre les mouvements du tank dans la scène "void"
 
 # FINAL PROJECT RELEASE
 
 ## 00/04/2018
 ### What I need to do
 
-Cry?
+Avant de publier mes prototypes, j'aimerai apporter des modifications pour améliorer/ corriger l'expérience. Idéalement, ce sera de légères modifications.
 
 ## 13/04/2018
 ### Screaming Tanks
@@ -270,9 +280,16 @@ Suite à certains commentaires, j'ai décidé d'ajouter la possibilité de lance
 
 3. Les débris émettent du sons lorsqu'ils fracassent le sol.
 
-## 00/04/2018
-### 
+## 19/04/2018
+### AfterTanks
+1. J'ai ajusté le niveau de bloom. La scène conserve son aesthetic originale, mais elle est maintenant moins surexoposée.
+2. J'ai retiré l'interface <Do you want to go back?>. À la place, le joueur est directement transporté à la scène comportant le jeu de base Tanks!
+3. La musique d'ambiance originale du jeu Tanks! se fait entendre dès l'arrivée à la dernière salle, en plus de s'amplifier lorsque le joueur monte les escaliers.
 
 ## 00/04/2018
-### 
+### Tanks _vs_ Shadow Hands
+1. Concept & raison d'être > corriger les bugs de fin de match > repositionner les tanks pour mieux communiquer l'histoire derrière l'attaque des shadow hands.
+
+## 00/04/2018
+### Release & Reflexion on the semester
 
