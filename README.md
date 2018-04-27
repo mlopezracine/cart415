@@ -266,7 +266,7 @@ Changements mineurs prévus:
 
 # FINAL PROJECT RELEASE
 
-## 00/04/2018
+## ??/04/2018
 ### What I need to do
 
 Avant de publier mes prototypes, j'aimerai apporter des modifications pour améliorer/ corriger l'expérience. Idéalement, ce sera de légères modifications.
@@ -287,10 +287,16 @@ Suite à certains commentaires, j'ai décidé d'ajouter la possibilité de lance
 3. La musique d'ambiance originale du jeu Tanks! se fait entendre dès l'arrivée à la dernière salle, en plus de s'amplifier lorsque le joueur monte les escaliers.
 4. Dans le void, le joueur seulement le contrôle sur les rotations du tank.
 
-## 00/04/2018
+## ??/04/2018
 ### Tanks _vs_ Shadow Hands
-1. Concept & raison d'être > corriger les bugs de fin de match > repositionner les tanks pour mieux communiquer l'histoire derrière l'attaque des shadow hands.
+1. Concept & raison d'être  > 
 
-## 00/04/2018
+2. Le jeu repart correctement.
+
+Le problème était que les enenmis se fiaient sur le timer pour être spawné. Même si la scène était reloadée, les enemis continuaient à apparaître en dehors du temps de jeu. J'ai remplacé Time.time par Time.timeSinceLevelLoad, ce qui corrige l'erreur.
+
+3. repositionner les tanks pour mieux communiquer l'histoire derrière l'attaque des shadow hands.
+
+## ??/04/2018
 ### Release & Reflexion on the semester
 
