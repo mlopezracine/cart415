@@ -285,6 +285,7 @@ Suite à certains commentaires, j'ai décidé d'ajouter la possibilité de lance
 1. J'ai ajusté le niveau de bloom. La scène conserve son aesthetic originale, mais elle est maintenant moins surexoposée.
 2. J'ai retiré l'interface <Do you want to go back?>. À la place, le joueur est directement transporté à la scène comportant le jeu de base Tanks!
 3. La musique d'ambiance originale du jeu Tanks! se fait entendre dès l'arrivée à la dernière salle, en plus de s'amplifier lorsque le joueur monte les escaliers.
+4. Dans le void, le joueur seulement le contrôle sur les rotations du tank.
 
 ## 00/04/2018
 ### Tanks _vs_ Shadow Hands
