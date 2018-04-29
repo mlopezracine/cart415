@@ -310,3 +310,14 @@ Faire des press kits a été une tâche intéressante. Je n'ai pas l'habitude de
 
 À travers la session, à cause du journal de bord, j'ai appris à laisser des traces de mes travaux. Je ne croyais pas que cet exercice aurait un impact, mais il m'a fait prendre conscience de mon inexistance sur le web. Depuis, j'ai créé une page instagram et ai publié des projets et work-in-progress. Non seulement cela permet de me créer une présence en ligne, cela me permet aussi de suivre l'évoluation de mes projets. Cependant, je ne crois pas retourner à la prise de note telle que demandée pour ce cours.
 
+### So long, and thanks for all the tanks.
+À mon avis, le prototype 1, Tanks vs Shadow Hands, est le mieux réussi visuellement. La composition se tient, le shader est on point, les animations des mains sont crédibles pour l'univers. Cependant, ça serait mentir de dire que c'est le prototype le mieux réussi. Après avoir remis le prototype 2 (Screaming Tanks), on dirait que j'ai compris comment intégrer le concept à travers les interactions. Il faut avouer que j'ai passé un temps fou à travailler le concept. Revenir au prototype 1 m'a fait remarquer à quel point je ne prêtais pas beaucoup d'attention au concept. Au final, c'est le prototype 2, Screaming Tanks, qui me semble être le prototype le mieux réussi. Autant à cause des feedbacks que des réactions des gens. 
+
+Prototype 3, AfterTanks, est celui qui m'a donné le plus de fils à retordre. Mes premières idées étaient pour la plupart très nulles: c'était souvent des skins différents du jeu. Aucune de mes interactions changeaient les méchaniques ou le concept (juste le contexte). J'ai pris des idées un peu partout et tenté de les faire fonctionner ensemble. Certes, certains éléments sont mieux réussi que d'autres. Il ne reste qu'il est ardu de trouver une manière de changer complétement un jeu avec les éléments 3D, tout en obtenant une interaction intéressante. Qui l'est cru.
+
+Au final, chaque prototype avait son lot de difficultés et contraintes, faisant en sorte de chacun a des réussites et des petits échecs uniques. J'ai appris énormement, encore maintenant chacun de ces apprentissages me permettent d'améliorer mes propres projects.
+
+
+Thank you for this class Pippin, it was excellent. 
+
+PS. Sorry for all the french/ franglais!
