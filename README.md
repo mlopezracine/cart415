@@ -269,7 +269,7 @@ Changements mineurs prévus:
 ## ??/04/2018
 ### What I need to do
 
-Avant de publier mes prototypes, j'aimerai apporter des modifications pour améliorer/ corriger l'expérience. Idéalement, ce sera de légères modifications.
+Avant de publier mes prototypes, j'aimerai apporter des modifications pour améliorer/ corriger l'expérience. Idéalement, ce sera de légères modifications. CART412 me vole énormément de temps, je ne peux pas entreprendre d’énormes modifications ou ajouts à mes prototypes.
 
 ## 13/04/2018
 ### Screaming Tanks
@@ -289,14 +289,24 @@ Suite à certains commentaires, j'ai décidé d'ajouter la possibilité de lance
 
 ## ??/04/2018
 ### Tanks _vs_ Shadow Hands
-1. Concept & raison d'être  > 
-
-2. Le jeu repart correctement.
+1. Le jeu repart correctement.
 
 Le problème était que les enenmis se fiaient sur le timer pour être spawné. Même si la scène était reloadée, les enemis continuaient à apparaître en dehors du temps de jeu. J'ai remplacé Time.time par Time.timeSinceLevelLoad, ce qui corrige l'erreur.
 
-3. repositionner les tanks pour mieux communiquer l'histoire derrière l'attaque des shadow hands.
+2. Les tanks sont repositionnés de manière à mieux communiquer aux joueurs qu'ils sont ensemble contre les ennemis. Le tank vert a aussi été déplacé pour créer une histoire, une sorte de raison pour laquelle il est important de ne pas laisser mourir l'autre joueur. 
 
-## ??/04/2018
-### Release & Reflexion on the semester
+## 29/04/2018
+### Last minute modifications
+1. J'ai mis un écran d'accueil pour le jeu Tanks vs Shadow Hands. Il me semble que cela permet de mieux comprendre le context.
+2. J'ai ajouter une transition lorsque le jeu Screaming Tanks est parti. Je ne voyais pas l'intérêt de mettre un écran d'accueil, mais au moins cela démarre le jeu moins abrutement.
+
+## 29/04/2018
+### Mac???
+Je n'ai aucun moyen de savoir si les prototypes sont fonctionnels sur Mac. Je crois que cela est une difficulté que je n'avais pas prévu au début du cours. C'est angoissant, puisque le jeu pourrait ne pas fonctionner correctement lors du démarrage ou il se pourrait que les shaders n'apparaissent pas comme prévus. J'ai déjà rencontrer ce problème avec les shaders dans le passé.
+
+## 29/04/2018
+### Release, Press kit, and Reflection on this semester.
+Faire des press kits a été une tâche intéressante. Je n'ai pas l'habitude de polish mes jeux puis de les publier. Ça rend l'expérience d'autant plus officielle, puisque les prototypes quittent les cadres du cours.
+
+À travers la session, à cause du journal de bord, j'ai appris à laisser des traces de mes travaux. Je ne croyais pas que cet exercice aurait un impact, mais il m'a fait prendre conscience de mon inexistance sur le web. Depuis, j'ai créé une page instagram et ai publié des projets et work-in-progress. Non seulement cela permet de me créer une présence en ligne, cela me permet aussi de suivre l'évoluation de mes projets. Cependant, je ne crois pas retourner à la prise de note telle que demandée pour ce cours.
 
