@@ -235,24 +235,42 @@ What I did:
 
 ## 28/02/2018
 ### I need ideas for the rough 3D Prototype
+Les tanks sont des grenouilles qui tirent la langue au lieu de balles. Le terrain est un marécage géant.
+Besoin d'un / de
+1. Shader d'eau qui recouvre le terrain
+2. Modifier une partie des modéles pour complèter le style
+3. Modifier les tanks (ajouter des pattes de grenouille)
+4. Animer les tanks (sauter comme une grenouille)
+
+...
+Le problème avec cette idée est qu'elle ne modifie pas l'expérience de jeu. Au final, ça reste le jeu _Tanks!_, mais avec un autre skin.
+
+## --/03/2018
+### 3D prototype: references
+J'ai utilisé le keyword [brutalism](https://github.com/pippinbarr/cart415-2018/wiki/3D-Objects-References#words-4) pour l'une de mes références pour le prototype 3D. Idéalement, j"aimerai modifier les assets (les bâtiements) du tutoriel pour créer une architecture brutaliste. Le but serait de complètement changer l'ambiance, tout en conservant l'aspet du tutoriel.
+
+Le plus gros du prototype serait de créer un bâtiment quelconque et d'ajouter des textures réalistes pour obtenir une impression qu'il est construit avec du béton.
+
+## --/03/2018
+### Rough 3D Prototype & recherche d'idées
+Ce prototype m'a donné plus de fils à retordre: changer l'expérience de jeu à partir des éléments 3D est une tâche plus ardue que je l'avais anticippée. Bien que j'ai suivi l'idée de construire une architecture brutaliste, j'ai eu de la difficulté à placer l'élément à travers le jeu de base. De plus, il n'y avait rien de visuellement intéressant. Au final, j'ai fait appel à diverses personnes. Chaque m'a proposé un élément visuel à intégrer. En d'autre, j'ai retenu les propositions "eau" & "rose (pastel)". J'ai intégré un shader d'eau qui semblait bien s'accorder avec le visuel du tutoriel, puis modifier les couleurs à la post production. Au mieux de la map se trouve le bâtiment que j'ai bâti. Le résultat m'a semblé soudainement plus "féérique", et beaucoup moins "construtiviste". J'ai décidé de poursuivre cette idée en ajoutant comme mécanique que lorsque le tank (le joueur) meurt dans le tutoriel, le tank (le joueur) est transporté à cet endroit. La deuxième map est allégée, puisqu'elle est dégarnie de la plupart des assets. Le sol recouvert d'eau contraste avec le sable et les roches du tutoriel.
+
+L'idée est de créer une boucle infinie o;u mourir et revenir au jeu devienne une lourde tâche répétitive.
+
+## --/03/2018
+### Problème de UVs, changement de tactic
+Les assets se prêtent difficilement à mon concept de base. J'ai passé trop de temps à cleaner les assets, construire l'intérieur et faire les uvs. Certains assets ont des vertex non mergés, ce qui cause parfois des problèmes lors de la modification de la structure. Au final, lorsque les assets sont placés dans Unity, les textures disparaissent au loin et sont inintéressantes vu de proche. J'ai donc abandoné cette approche et me suis concentrée à construire mon bâtiment. 
+
+## --/03/2018
+### Ajout à l'expérience de jeu.
+J'ai abandonné l'idée de générer des bâtiments différents à chaque mort. C'est surtout que cela ne me tentais pas particulièrement. À la place, j'ai ajouté une nouvelle porte: le "void". Pour sortir de la boucle infinie, le tank (le joueur) peut passer une porte (plus ou moins) cachée à l'intérieur du bâtiment. Le tank se retrouve à flotter dans le vide, à côté d'une porte/ d'une entrée illuminée.
 
 
-## 03/03/2018
-### 3D Prototype
-
-## 00/03/2018
-### 3D Prototype
-
-## 00/03/2018
-### 3D Prototype
-
-## 00/03/2018
-### 3D Prototype
-
-## 00/03/2018
+## --/03/2018
 ### Feedbacks: 3D Full Prototype
 
 Je ne sais pas comment réagir aux commentaires reçus pour ce prototype. Il semble avoir du potentiel, cependant je suis consciente que l'exécution du prototype semble être maladroite, voir incomplète. 
+L'un des éléments qui nuit le plus l'expérience est sans doute l'interface qui apparait au sommet du bâtiment, puisqu'elle détruit l'immersion et ralenti inutilement le rythme du jeu.
 
 ### Update 2/ Feedbacks: 3D full Prototype
 
